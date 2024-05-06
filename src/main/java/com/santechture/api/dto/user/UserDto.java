@@ -1,6 +1,5 @@
 package com.santechture.api.dto.user;
 
-import com.santechture.api.entity.Admin;
 import com.santechture.api.entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;

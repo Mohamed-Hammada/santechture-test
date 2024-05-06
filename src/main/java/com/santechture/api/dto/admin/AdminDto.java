@@ -5,9 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
@@ -17,6 +14,7 @@ public class AdminDto {
 
     private String username;
 
+    private String accessToken;
     public AdminDto(Admin admin){
         setAdminId(admin.getAdminId());
         setUsername(admin.getUsername());
